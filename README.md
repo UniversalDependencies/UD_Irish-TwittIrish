@@ -49,6 +49,6 @@ UPOS: converted with corrections
 Relations: automatic with corrections
 Contributors: Cassidy, Lauren; Lynn, Teresa; Foster, Jennifer; McGuinness, Sarah
 Contributing: elsewhere
-Contact: lauren.cassidy@adaptcentre.ie; teresa.lynn@adaptcentre.ie;
+Contact: lauren.cassidy@adaptcentre.ie; teresa.lynn@adaptcentre.ie
 ===============================================================================
 </pre>
