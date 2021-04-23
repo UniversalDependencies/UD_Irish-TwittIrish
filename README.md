@@ -6,8 +6,8 @@ A Universal Dependencies treebank of 866 tweets in modern Irish.
 
 The TwittIrish treebank contains 866 Irish language tweets from two corpora: 166 tweets from the Cassidy Twitter Corpus [CTC] and 700 tweets from the Lynn Twitter Corpus [LTC]. 
 
-CTC consists of 25000 tweets posted between 2010 and 2019 randomly sampled from a database of 14111 users who have tweeted in Irish.
-LTC consists of 1493 tweets posted between 2009 and 2014 randomly sampled from 950000 tweets by 8000 users. Lemmas and POS-tags were added to LTC a part of a PhD research project by Dr. Teresa Lynn at Dublin City University, Ireland (Lynn, 2016) (Lynn, Scannell and Maguire, 2015). The LTC data was further annotated with Code-Switching information (Lynn and Scannell, 2019). The LTC data can be found here: https://github.com/tlynn747/IrishTwitterPOS.
+* CTC consists of 25000 tweets posted between 2010 and 2019 randomly sampled from a database of 14111 users who have tweeted in Irish.
+* LTC consists of 1493 tweets posted between 2009 and 2014 randomly sampled from 950000 tweets by 8000 users. Lemmas and POS-tags were added to LTC a part of a PhD research project by Dr. Teresa Lynn at Dublin City University, Ireland (Lynn, 2016) (Lynn, Scannell and Maguire, 2015). The LTC data was further annotated with Code-Switching information (Lynn and Scannell, 2019). The LTC data can be found here: https://github.com/tlynn747/IrishTwitterPOS.
 
 Irish language tweets were identified by Kevin Scannell as part of the Indigenous Tweets website project http://indigenoustweets.com/. Non-Irish tweets were filtered out using a simple character-trigram language identifier.
 
