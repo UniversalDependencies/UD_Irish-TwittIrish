@@ -17,7 +17,7 @@ Trees were parsed automatically using the Irish UD Treebank [IUDT] (Lynn and Fos
 
 # Acknowledgments
 
-We wish to thank all of the contributors to the IUDT annotation and Kevin Scannell for providing data and linguistic advice.
+We wish to thank all of the contributors to the IUDT annotation, Kevin Scannell for providing data and linguistic advice, and James Barry for improving the accuracy of automatic parsing by experimenting with different models.
 
 The creation of TwittIrish treebank from 2019-2021 is funded by the Irish Government
 The Department of Tourism, Culture, Arts, Gaeltacht, Sport and Media under the GaelTech project.
