@@ -46,6 +46,8 @@ Includes text: yes
 Genre: social
 Lemmas: converted with corrections
 UPOS: converted with corrections
+XPOS: not available
+Features: not available
 Relations: automatic with corrections
 Contributors: Cassidy, Lauren; Lynn, Teresa; Foster, Jennifer; McGuinness, Sarah
 Contributing: elsewhere
