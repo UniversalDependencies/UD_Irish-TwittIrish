@@ -2887,7 +2887,7 @@
 4	bothar	bóthar	NOUN	_	_	2	nsubj	_	CorrectForm=bóthar|Lang=ga
 5	le	le	ADP	_	_	7	case	_	CorrectForm=leis|Lang=ga
 6	na	an	DET	_	_	7	det	_	Lang=ga
-7	O'Bamas	Obama	PROPN	_	_	2	obl	_	CorrectForm=ObamasCSType=Intra-word||Lang=en|NonCan=LexInno
+7	O'Bamas	Obama	PROPN	_	_	2	obl	_	CorrectForm=Obamas|CSType=Intra-word|Lang=en|NonCan=LexInno
 8	#isféidirlinn	#isféidirlinn	X	_	_	2	parataxis:hashtag	_	Lang=ga
 
 # sent_id = 1173216073455456260
@@ -3403,7 +3403,7 @@
 12	http://t.co/SLGntSwwOi	http://t.co/SLGntSwwOi	SYM	_	_	4	parataxis:url	_	SpaceAfter=No
 13	”	”	PUNCT	_	_	15	punct	_	_
 14	fair	fair	ADJ	_	_	15	amod	_	CSType=Inter|Lang=en
-15	plé	play	NOUN	_	_	4	parataxis:sentence	_	CorrectForm=play|CSType=Inter|Lang=en||NonCan=TransL
+15	plé	play	NOUN	_	_	4	parataxis:sentence	_	CorrectForm=play|CSType=Inter|Lang=en|NonCan=TransL
 16	daoibh	do	ADP	_	_	15	obl:prep	_	_
 17	💗	💗	SYM	_	_	15	discourse:emo	_	_
 
@@ -4805,7 +4805,7 @@
 5	's	be	AUX	_	_	6	cop	_	CSType=Inter|Lang=en
 6	Sharon	Sharon	PROPN	_	_	0	root	_	Lang=ga|SpaceAfter=No
 7	.	.	PUNCT	_	_	8	punct	_	_
-8	Tá	Tá	VERB	_	_	6	parataxis:sentence	_	Lang=ga||SpaceAfter=No
+8	Tá	Tá	VERB	_	_	6	parataxis:sentence	_	Lang=ga|SpaceAfter=No
 9	'n	an	DET	_	_	10	det	_	Lang=ga
 10	blag	blag	NOUN	_	_	8	nsubj	_	Lang=ga
 11	ag	ag	ADP	_	_	12	case	_	Lang=ga
