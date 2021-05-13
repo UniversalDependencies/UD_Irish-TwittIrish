@@ -1,0 +1,40 @@
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Thu May 6 20:16:19 2021 +0200
+Evaluating the following revision of UD_Irish-TwittIrish:
+commit c082c60637e8376e89f606ad86e39c37c9d3e859
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 12 21:00:27 2021 +0200
+Size: counted 15433 of 15433 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.47301614783739.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.9.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.9.
+Features: 0 out of 15433 total words have one or more features.
+Features: source of annotation (from README) factor is 0.4.
+Universal relations: 34 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.1.
+Udapi:
+               TOTAL       2819
+Udapi: found 2819 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 15433 words.
+Genres: found 1 out of 17 known.
+validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-test.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
+(weight=0.256410256410256) * (score{size}=0.396150118728862) = 0.101576953520221
+(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
+(weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.0918918918918919) = 0.00706860706860707
+(TOTAL score=0.272914037210246) * (availability=1) * (validity=1) = 0.272914037210246
+STARS = 1.5
+UD_Irish-TwittIrish	0.272914037210246	1.5
