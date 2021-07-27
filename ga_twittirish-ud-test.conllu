@@ -25,7 +25,7 @@
 23	chéad	céad	ADJ	_	_	24	amod	_	Lang=ga
 24	uair	uair	NOUN	_	_	20	nsubj	_	Lang=ga
 25	go	go	PART	_	_	26	mark:prt	_	Lang=ga
-26	bhfuil	bí	VERB	_	_	20	csubj:cop	_	Lang=ga
+26	bhfuil	bí	VERB	_	_	24	acl:relcl	_	Lang=ga
 27	craobh	craobh	NOUN	_	_	26	nsubj	_	Lang=ga
 28	na	an	DET	_	_	27	nmod	_	Lang=ga|NonCan=Trunc|SpaceAfter=No
 29	…	…	PUNCT	_	_	4	punct	_	_
