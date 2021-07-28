@@ -456,7 +456,7 @@
 1	@SiobhainGrogan	@SiobhainGrogan	PROPN	_	_	4	vocative:mention	_	_
 2	@aonghusoha	@aonghusoha	PROPN	_	_	4	vocative:mention	_	_
 3	@Haudge	@Haudge	PROPN	_	_	4	vocative:mention	_	_
-4	Tuairim	tuairim	PROPN	_	_	0	root	_	Lang=ga
+4	Tuairim	tuairim	NOUN	_	_	0	root	_	Lang=ga
 5	dá	de	ADP	_	_	6	case	_	Lang=ga
 6	laghad	laghad	NOUN	_	_	4	nmod	_	Lang=ga
 7	agam	ag	ADP	_	_	4	obl:prep	_	Lang=ga
