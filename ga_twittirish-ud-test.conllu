@@ -821,7 +821,7 @@
 2	@ChronHib	@ChronHib	PROPN	_	_	4	vocative:mention	_	_
 3	@theirishfor	@theirishfor	PROPN	_	_	4	vocative:mention	_	_
 4	sin	sin	DET	_	_	0	root	_	_
-5	ciallmhar	ciallmhar	ADJ	_	_	4	amod	_	SpaceAfter=No
+5	ciallmhar	ciallmhar	ADJ	_	_	4	xcomp:pred	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	4	punct	_	_
 7	Ach	ach	SCONJ	_	_	8	mark	_	Lang=ga
 8	litriú	litriú	NOUN	_	_	4	parataxis:sentence	_	Lang=ga
