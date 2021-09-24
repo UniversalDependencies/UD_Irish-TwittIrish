@@ -17312,7 +17312,7 @@
 9	féachaint	féachaint	NOUN	_	_	8	csubj:cop	_	Lang=ga
 10	ar	ar	ADP	_	_	12	case	_	Lang=ga
 11	na	na	DET	_	_	12	det	_	Lang=ga
-12	buaicphointí	buaicphoint	NOUN	_	_	9	obl	_	SpaceAfter=No
+12	buaicphointí	buaicphointe	NOUN	_	_	9	obl	_	SpaceAfter=No
 13	!!	!!	PUNCT	_	_	5	punct	_	_
 14	#zzzzz	#zzzzz	X	_	_	2	parataxis:hashtag	_	_
 
@@ -17562,7 +17562,7 @@
 14	á	do	ADP	_	_	15	case	_	Lang=ga
 15	chur	cur	NOUN	_	_	9	xcomp	_	Lang=ga
 16	ar	ar	ADP	_	_	17	case	_	Lang=ga
-17	leathtaobh	leathtaobh	NOUN	_	_	15	obl	_	Lang=ga
+17	leathtaobh	leataobh	NOUN	_	_	15	obl	_	CorrectForm=leataobh|Lang=ga
 18	#náireach	#náireach	X	_	_	1	parataxis:hashtag	_	Lang=ga
 19	http://t.co/yUwu4CqajD	http://t.co/yUwu4CqajD	SYM	_	_	1	parataxis:url	_	_
 
