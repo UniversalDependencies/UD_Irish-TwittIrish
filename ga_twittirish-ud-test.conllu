@@ -2791,7 +2791,7 @@
 17	#BeTheBlackSheep	#BeTheBlackSheep	X	_	_	10	parataxis:hashtag	_	CSType=Intra|Lang=en
 18	https://t.co/NtQy1kuZaI	https://t.co/NtQy1kuZaI	SYM	_	_	17	parataxis:url	_	_
 
-# sent_id = 87496559442836684
+# sent_id = 874965594428366848
 # text = Gheobhaidh tú amach nach bhfuil meas madra ag muintir na hÉireann ar an mbrathadóir nó "informer" a deir @catherinegalway le @campaignforleo
 1	Gheobhaidh	faigh	VERB	_	_	20	parataxis	_	Lang=ga
 2	tú	tú	PRON	_	_	1	nsubj	_	Lang=ga
