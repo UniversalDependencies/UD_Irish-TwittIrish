@@ -805,7 +805,7 @@
 14	”	”	PUNCT	_	_	4	punct	_	_
 15	#gaeilge	#gaeilge	X	_	_	4	parataxis:hashtag	_	Lang=ga
 
-# sent_id = T52S1
+# sent_id = 564393446505725952
 # text = @Buailtin: Cnoc Bréanainn Iarthar Dhuibhneach http://t.co/qz0hnl4hnn
 1	@Buailtin	@Buailtin	PROPN	_	_	3	vocative:mention	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	3	punct	_	_
@@ -2224,7 +2224,7 @@
 8	.	.	PUNCT	_	_	4	punct	_	_
 9	https://t.co/v0oRkLCRbg	https://t.co/v0oRkLCRbg	SYM	_	_	1	parataxis:url	_	_
 
-# sent_id = T121S1
+# sent_id = 576012149056794624
 # text = Damhsa Gaelach go raibh Maith agat Elaine http://t.co/YTZdRG5g59
 1	Damhsa	damhsa	NOUN	_	_	0	root	_	Lang=ga
 2	Gaelach	gaelach	ADJ	_	_	1	amod	_	Lang=ga
