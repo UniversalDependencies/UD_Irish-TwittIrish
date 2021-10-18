@@ -15890,7 +15890,7 @@
 1	Fuaireas	faigh	VERB	_	_	0	root	_	Lang=ga
 2	11	11	NUM	_	_	1	obj	_	Lang=ga
 3	as	as	ADP	_	_	4	case	_	Lang=ga
-4	11	11	NUM	_	_	1	obl	_	SpaceAfter=No
+4	11	11	NUM	_	_	2	nmod	_	SpaceAfter=No
 5	...	...	PUNCT	_	_	1	punct	_	_
 6	Cé	cé	ADV	_	_	8	advmod	_	Lang=ga
 7	chomh	chomh	ADV	_	_	6	fixed	_	Lang=ga
