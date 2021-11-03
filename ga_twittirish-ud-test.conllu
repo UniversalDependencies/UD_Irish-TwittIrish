@@ -25,7 +25,7 @@
 23	chéad	céad	ADJ	_	_	24	amod	_	Lang=ga
 24	uair	uair	NOUN	_	_	20	nsubj	_	Lang=ga
 25	go	go	PART	_	_	26	mark:prt	_	Lang=ga
-26	bhfuil	bí	VERB	_	_	20	csubj:cop	_	Lang=ga
+26	bhfuil	bí	VERB	_	_	24	acl:relcl	_	Lang=ga
 27	craobh	craobh	NOUN	_	_	26	nsubj	_	Lang=ga
 28	na	an	DET	_	_	27	nmod	_	Lang=ga|NonCan=Trunc|SpaceAfter=No
 29	…	…	PUNCT	_	_	4	punct	_	_
@@ -456,7 +456,7 @@
 1	@SiobhainGrogan	@SiobhainGrogan	PROPN	_	_	4	vocative:mention	_	_
 2	@aonghusoha	@aonghusoha	PROPN	_	_	4	vocative:mention	_	_
 3	@Haudge	@Haudge	PROPN	_	_	4	vocative:mention	_	_
-4	Tuairim	tuairim	PROPN	_	_	0	root	_	Lang=ga
+4	Tuairim	tuairim	NOUN	_	_	0	root	_	Lang=ga
 5	dá	de	ADP	_	_	6	case	_	Lang=ga
 6	laghad	laghad	NOUN	_	_	4	nmod	_	Lang=ga
 7	agam	ag	ADP	_	_	4	obl:prep	_	Lang=ga
@@ -675,7 +675,7 @@
 1	La	lá	PROPN	_	_	0	root	_	CorrectForm=Lá|Lang=ga
 2	fheile	féile	PROPN	_	_	1	nmod	_	CorrectForm=Fhéile|Lang=ga
 3	#Padraig	#Padraig	X	_	_	1	nmod	_	Lang=ga
-4	dhaoibh	do	ADP	_	_	1	obl:prep	_	Lang=ga|SpaceAfter=No
+4	dhaoibh	do	ADP	_	_	1	nmod	_	Lang=ga|SpaceAfter=No
 5	!	!	PUNCT	_	_	1	punct	_	SpaceAfter=No
 6	Bain	bain	VERB	_	_	1	parataxis:sentence	_	Lang=ga
 7	sibh	sibh	PRON	_	_	6	nsubj	_	Lang=ga
@@ -805,7 +805,7 @@
 14	”	”	PUNCT	_	_	4	punct	_	_
 15	#gaeilge	#gaeilge	X	_	_	4	parataxis:hashtag	_	Lang=ga
 
-# sent_id = T52S1
+# sent_id = 564393446505725952
 # text = @Buailtin: Cnoc Bréanainn Iarthar Dhuibhneach http://t.co/qz0hnl4hnn
 1	@Buailtin	@Buailtin	PROPN	_	_	3	vocative:mention	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	3	punct	_	_
@@ -821,7 +821,7 @@
 2	@ChronHib	@ChronHib	PROPN	_	_	4	vocative:mention	_	_
 3	@theirishfor	@theirishfor	PROPN	_	_	4	vocative:mention	_	_
 4	sin	sin	DET	_	_	0	root	_	_
-5	ciallmhar	ciallmhar	ADJ	_	_	4	amod	_	SpaceAfter=No
+5	ciallmhar	ciallmhar	ADJ	_	_	4	xcomp:pred	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	4	punct	_	_
 7	Ach	ach	SCONJ	_	_	8	mark	_	Lang=ga
 8	litriú	litriú	NOUN	_	_	4	parataxis:sentence	_	Lang=ga
@@ -836,7 +836,7 @@
 # sent_id = 226084010554712064
 # text = 2-0 anois a chairde. Féidir an BOSCA a bhualadh? Éist leis anseo... http://t.co/hXim25kP
 1	2	2	NUM	_	_	0	root	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	0	0	NUM	_	_	1	flat	_	_
 4	anois	anois	ADV	_	_	1	advmod	_	Lang=ga
 5	a	a	PART	_	_	6	case:voc	_	Lang=ga
@@ -1730,7 +1730,7 @@
 23	Dingle	Dingle	PROPN	_	_	4	parataxis	_	Lang=en
 24	0	0	NUM	_	_	23	nmod	_	SpaceAfter=No
 25	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	13	13	NUM	_	_	23	flat	_	_
+26	13	13	NUM	_	_	24	flat	_	_
 27	An	an	DET	_	_	26	det	_	Lang=en|NonCan=Trunc|SpaceAfter=No
 28	…	…	PUNCT	_	_	4	punct	_	_
 
@@ -2224,7 +2224,7 @@
 8	.	.	PUNCT	_	_	4	punct	_	_
 9	https://t.co/v0oRkLCRbg	https://t.co/v0oRkLCRbg	SYM	_	_	1	parataxis:url	_	_
 
-# sent_id = T121S1
+# sent_id = 576012149056794624
 # text = Damhsa Gaelach go raibh Maith agat Elaine http://t.co/YTZdRG5g59
 1	Damhsa	damhsa	NOUN	_	_	0	root	_	Lang=ga
 2	Gaelach	gaelach	ADJ	_	_	1	amod	_	Lang=ga
@@ -2791,7 +2791,7 @@
 17	#BeTheBlackSheep	#BeTheBlackSheep	X	_	_	10	parataxis:hashtag	_	CSType=Intra|Lang=en
 18	https://t.co/NtQy1kuZaI	https://t.co/NtQy1kuZaI	SYM	_	_	17	parataxis:url	_	_
 
-# sent_id = 87496559442836684
+# sent_id = 874965594428366848
 # text = Gheobhaidh tú amach nach bhfuil meas madra ag muintir na hÉireann ar an mbrathadóir nó "informer" a deir @catherinegalway le @campaignforleo
 1	Gheobhaidh	faigh	VERB	_	_	20	parataxis	_	Lang=ga
 2	tú	tú	PRON	_	_	1	nsubj	_	Lang=ga
@@ -3807,7 +3807,7 @@
 13	faitíos	faitíos	NOUN	_	_	12	nsubj	_	Lang=ga
 14	orm	ar	ADP	_	_	12	obl:prep	_	Lang=ga
 15	aon	aon	DET	_	_	16	det	_	Lang=ga
-16	rud	rud	NOUN	_	_	12	obj	_	Lang=ga
+16	rud	rud	NOUN	_	_	18	obj	_	Lang=ga
 17	a	a	PART	_	_	18	mark	_	Lang=ga
 18	scríobh	scríobh	NOUN	_	_	12	xcomp	_	Lang=ga
 19	mó	nó	CCONJ	_	_	21	cc	_	Lang=ga
@@ -3878,7 +3878,7 @@
 11	nóiméid	nóiméad	NOUN	_	_	7	obj	_	Lang=ga
 12	30	30	NUM	_	_	13	nummod	_	Lang=ga
 13	soicind	soicind	NOUN	_	_	10	conj	_	Lang=ga
-14	chun	chun	ADP	_	_	16	case	_	Lang=ga
+14	chun	chun	ADP	_	_	20	case	_	Lang=ga
 15	an	an	DET	_	_	16	det	_	Lang=ga
 16	píosa	píosa	NOUN	_	_	20	obj	_	Lang=ga
 17	is	is	PART	_	_	18	mark:prt	_	Lang=ga
@@ -6365,15 +6365,15 @@
 4	Oscail	oscail	VERB	_	_	0	root	_	Lang=ga
 5	@Independent_ie	@Independent_ie	PROPN	_	_	4	obj	_	Lang=ga
 6	inniu	inniu	ADV	_	_	4	advmod	_	Lang=ga
-7	chun	chun	ADP	_	_	8	case	_	Lang=ga
-8	@mairetreasa	@mairetreasa	PROPN	_	_	4	nmod	_	Lang=ga
-9	@LorGMedia	@LorGMedia	PROPN	_	_	17	obj	_	Lang=ga
-10	@emmaelizar	@emmaelizar	PROPN	_	_	17	obj	_	Lang=ga
-11	@Noreendarcy	@Noreendarcy	PROPN	_	_	17	obj	_	Lang=ga
+7	chun	chun	ADP	_	_	17	case	_	Lang=ga
+8	@mairetreasa	@mairetreasa	PROPN	_	_	4	obj	_	Lang=ga
+9	@LorGMedia	@LorGMedia	PROPN	_	_	8	conj	_	Lang=ga
+10	@emmaelizar	@emmaelizar	PROPN	_	_	8	conj	_	Lang=ga
+11	@Noreendarcy	@Noreendarcy	PROPN	_	_	8	conj	_	Lang=ga
 12	agus	agus	CCONJ	_	_	13	cc	_	Lang=ga
-13	cupla	cúpla	DET	_	_	4	conj	_	CorrectForm=cúpla|Lang=ga
+13	cupla	cúpla	DET	_	_	8	conj	_	CorrectForm=cúpla|Lang=ga
 14	duine	duine	NOUN	_	_	13	nmod	_	Lang=ga
-15	eile	eile	DET	_	_	14	det	_	Lang=ga
+15	eile	eile	DET	_	_	13	det	_	Lang=ga
 16	a	a	PART	_	_	17	mark	_	Lang=ga
 17	fheiscint	feiscint	NOUN	_	_	4	xcomp	_	Lang=ga|SpaceAfter=No
 18	!	!	PUNCT	_	_	4	punct	_	_
@@ -6725,11 +6725,11 @@
 # sent_id = TTC_155
 # text = 1-6 go 1-2 ag leath ama.
 1	1	1	NUM	_	_	0	root	_	SpaceAfter=No
-2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	6	6	NUM	_	_	1	flat	_	_
 4	go	go	ADP	_	_	5	case	_	Lang=ga
 5	1	1	NUM	_	_	1	nmod	_	SpaceAfter=No
-6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	2	2	NUM	_	_	5	flat	_	_
 8	ag	ag	ADP	_	_	9	case	_	Lang=ga
 9	leath	leath	DET	_	_	1	obl	_	Lang=ga
@@ -10480,7 +10480,7 @@
 23	Eoin	Eoin	PROPN	_	_	18	obl:tmod	_	_
 24	4:19	4:19	NUM	_	_	23	flat	_	SpaceAfter=No
 25	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	5:4	5:4	NUM	_	_	23	nmod	_	_
+26	5:4	5:4	NUM	_	_	24	nmod	_	_
 
 # sent_id = TTC_330
 # text = @KingDonncha1 @maidhcoc @Duibhlinneach @aonghusoha @misemamai @breac_an_tsil @MiseCiara @maitiuocoimin Tá ár saol laethúil..sin a dhóthain-)
@@ -12400,11 +12400,11 @@
 5	An	an	DET	_	_	6	det	_	Lang=ga
 6	Longfort	Longfort	PROPN	_	_	1	parataxis	_	Lang=ga
 7	1	1	NUM	_	_	6	nmod	_	SpaceAfter=No
-8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	08	08	NUM	_	_	7	flat	_	Lang=ga
 10	Sligeach	Sligeach	PROPN	_	_	6	parataxis	_	Lang=ga
 11	1	1	NUM	_	_	10	nmod	_	Lang=ga|SpaceAfter=No
-12	-	-	PUNCT	_	_	11	punct	_	Lang=ga|SpaceAfter=No
+12	-	-	PUNCT	_	_	13	punct	_	Lang=ga|SpaceAfter=No
 13	05	05	NUM	_	_	11	flat	_	Lang=ga
 14	a	a	DET	_	_	15	nmod:poss	_	Lang=ga
 15	bhuíochas	buíochas	NOUN	_	_	10	parataxis	_	Lang=ga
@@ -15890,7 +15890,7 @@
 1	Fuaireas	faigh	VERB	_	_	0	root	_	Lang=ga
 2	11	11	NUM	_	_	1	obj	_	Lang=ga
 3	as	as	ADP	_	_	4	case	_	Lang=ga
-4	11	11	NUM	_	_	1	obl	_	SpaceAfter=No
+4	11	11	NUM	_	_	2	nmod	_	SpaceAfter=No
 5	...	...	PUNCT	_	_	1	punct	_	_
 6	Cé	cé	ADV	_	_	8	advmod	_	Lang=ga
 7	chomh	chomh	ADV	_	_	6	fixed	_	Lang=ga
@@ -17312,7 +17312,7 @@
 9	féachaint	féachaint	NOUN	_	_	8	csubj:cop	_	Lang=ga
 10	ar	ar	ADP	_	_	12	case	_	Lang=ga
 11	na	na	DET	_	_	12	det	_	Lang=ga
-12	buaicphointí	buaicphoint	NOUN	_	_	9	obl	_	SpaceAfter=No
+12	buaicphointí	buaicphointe	NOUN	_	_	9	obl	_	SpaceAfter=No
 13	!!	!!	PUNCT	_	_	5	punct	_	_
 14	#zzzzz	#zzzzz	X	_	_	2	parataxis:hashtag	_	_
 
@@ -17562,7 +17562,7 @@
 14	á	do	ADP	_	_	15	case	_	Lang=ga
 15	chur	cur	NOUN	_	_	9	xcomp	_	Lang=ga
 16	ar	ar	ADP	_	_	17	case	_	Lang=ga
-17	leathtaobh	leathtaobh	NOUN	_	_	15	obl	_	Lang=ga
+17	leathtaobh	leataobh	NOUN	_	_	15	obl	_	CorrectForm=leataobh|Lang=ga
 18	#náireach	#náireach	X	_	_	1	parataxis:hashtag	_	Lang=ga
 19	http://t.co/yUwu4CqajD	http://t.co/yUwu4CqajD	SYM	_	_	1	parataxis:url	_	_
 
@@ -17734,9 +17734,9 @@
 13	Go	go	PART	_	_	14	mark:prt	_	Lang=ga
 14	mbeirimid	beir	VERB	_	_	4	parataxis:sentence	_	Lang=ga
 15	beo	beo	ADJ	_	_	14	xcomp:pred	_	Lang=ga
-16	ar	ar	NOUN	_	_	14	case	_	Lang=ga
-17	an	an	DET	_	_	14	det	_	Lang=ga
-18	seo	seo	DET	_	_	14	obl	_	Lang=ga
+16	ar	ar	NOUN	_	_	17	case	_	Lang=ga
+17	an	an	DET	_	_	14	obl	_	Lang=ga
+18	seo	seo	DET	_	_	17	det	_	Lang=ga
 19	arís	arís	ADV	_	_	14	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	14	punct	_	_
 
