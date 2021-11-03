@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>866</sentences><tokens>15433</tokens><words>15433</words><fused>0</fused></test>
   </size>
-  <lemmas unique="4110" /><!-- an, ., bí, ag, ar, i, le, a, :, ,, !, go, rt, is, do -->
+  <lemmas unique="4111" /><!-- an, ., bí, ag, ar, i, le, a, :, ,, !, go, rt, is, do -->
   <forms unique="5051" /><!-- ., an, ar, a, :, ,, ag, !, go, RT, na, i, le, is, - -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -22,11 +22,11 @@
     <tag name="CCONJ">246</tag><!-- agus, ach, &, nó, and, ná, +, /, ┐, 7 -->
     <tag name="DET">905</tag><!-- an, seo, mo, a, eile, sin, na, aon, the, gach -->
     <tag name="INTJ">64</tag><!-- ah, bhuel, ha, haha, abú, oh, ó, Hup, LOL, hmmm -->
-    <tag name="NOUN">2993</tag><!-- duine, lá, cara, oíche, fad, bliain, ceann, féidir, maith, rud -->
+    <tag name="NOUN">2994</tag><!-- duine, lá, cara, oíche, fad, bliain, ceann, féidir, maith, rud -->
     <tag name="NUM">272</tag><!-- 2, 1, 0, 10, 7, 8, 6, céad, dó, míle -->
     <tag name="PART">635</tag><!-- a, go, is, ní, níos, ó, an, nach, mac, ná -->
     <tag name="PRON">454</tag><!-- mé, é, tú, sin, sé, seo, siad, sibh, muid, cé -->
-    <tag name="PROPN">2285</tag><!-- Gaeilge, @aonghusoha, @TG4TV, Éire, @maitiuocoimin, @RTERnaG, Nollaig, @KingDonncha1, @tuigim, @cnag -->
+    <tag name="PROPN">2284</tag><!-- Gaeilge, @aonghusoha, @TG4TV, Éire, @maitiuocoimin, @RTERnaG, Nollaig, @KingDonncha1, @tuigim, @cnag -->
     <tag name="PUNCT">2027</tag><!-- ., :, ,, !, -, ?, …, ', ..., " -->
     <tag name="SCONJ">81</tag><!-- má, ach, agus, ná, nuair, mar, dá, muna, ar, as -->
     <tag name="SYM">674</tag><!-- rt, :), :D, :-), ;), :(, <3, http:/, http://t., x -->
@@ -39,10 +39,10 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="52">
     <dep name="acl">5</dep>
-    <dep name="acl:relcl">89</dep>
+    <dep name="acl:relcl">90</dep>
     <dep name="advcl">80</dep>
     <dep name="advmod">471</dep>
-    <dep name="amod">405</dep>
+    <dep name="amod">404</dep>
     <dep name="appos">76</dep>
     <dep name="aux">12</dep>
     <dep name="case">1572</dep>
@@ -51,11 +51,11 @@
     <dep name="ccomp">77</dep>
     <dep name="compound">39</dep>
     <dep name="compound:prt">6</dep>
-    <dep name="conj">309</dep>
+    <dep name="conj">312</dep>
     <dep name="cop">172</dep>
     <dep name="csubj">3</dep>
     <dep name="csubj:cleft">36</dep>
-    <dep name="csubj:cop">49</dep>
+    <dep name="csubj:cop">48</dep>
     <dep name="dep">1</dep>
     <dep name="det">793</dep>
     <dep name="discourse">58</dep>
@@ -70,13 +70,13 @@
     <dep name="list">1</dep>
     <dep name="mark">200</dep>
     <dep name="mark:prt">358</dep>
-    <dep name="nmod">1338</dep>
+    <dep name="nmod">1339</dep>
     <dep name="nmod:poss">120</dep>
     <dep name="nsubj">710</dep>
     <dep name="nummod">67</dep>
-    <dep name="obj">376</dep>
-    <dep name="obl">657</dep>
-    <dep name="obl:prep">356</dep>
+    <dep name="obj">374</dep>
+    <dep name="obl">656</dep>
+    <dep name="obl:prep">355</dep>
     <dep name="obl:tmod">134</dep>
     <dep name="orphan">1</dep>
     <dep name="parataxis">313</dep>
@@ -89,6 +89,6 @@
     <dep name="vocative">50</dep>
     <dep name="vocative:mention">931</dep>
     <dep name="xcomp">281</dep>
-    <dep name="xcomp:pred">247</dep>
+    <dep name="xcomp:pred">248</dep>
   </deps>
 </treebank>
