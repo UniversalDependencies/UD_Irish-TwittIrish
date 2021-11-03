@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Irish-TwittIrish:
-commit c082c60637e8376e89f606ad86e39c37c9d3e859
+commit dd0338d990ba8a7ae2ae10f7d95c6c682819c549
+Merge: 22e63d3 6ab9fb1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed May 12 21:00:27 2021 +0200
 Size: counted 15433 of 15433 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.47301614783739.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Udapi:
-               TOTAL       2819
-Udapi: found 2819 bugs.
+               TOTAL       2818
+Udapi: found 2818 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 15433 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-test.conllu
