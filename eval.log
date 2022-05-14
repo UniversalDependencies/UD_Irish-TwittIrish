@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Irish-TwittIrish:
-commit dd0338d990ba8a7ae2ae10f7d95c6c682819c549
-Merge: 22e63d3 6ab9fb1
+commit d62ef67080ff15aa84b167732ab75c40f653973e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed Nov 3 16:31:23 2021 +0100
 Size: counted 15433 of 15433 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.47301614783739.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,8 +25,14 @@ Udapi: found 2818 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 15433 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 4621 Sent TTC_60 Node 10]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 4746 Sent TTC_66 Node 8]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 6006 Sent TTC_120 Node 5]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 6006 Sent TTC_120 Node 5]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+Morpho errors: 4
+*** FAILED *** with 4 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
@@ -35,6 +41,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.0918918918918919) = 0.00706860706860707
-(TOTAL score=0.272914037210246) * (availability=1) * (validity=1) = 0.272914037210246
-STARS = 1.5
-UD_Irish-TwittIrish	0.272914037210246	1.5
+(TOTAL score=0.272914037210246) * (availability=1) * (validity=0.01) = 0.00272914037210246
+STARS = 0
+UD_Irish-TwittIrish	0.00272914037210246	0
