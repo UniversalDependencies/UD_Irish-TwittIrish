@@ -3082,7 +3082,7 @@
 13	https://t.co/bPoVsHyHi7	https://t.co/bPoVsHyHi7	SYM	_	_	6	parataxis:url	_	_
 14	Ireland	Ireland	PROPN	_	_	17	nmod	_	CSType=Intra|Lang=en|SpaceAfter=No
 15	's	's	PART	_	_	14	case	_	CSType=Intra|Lang=en
-16	1st	1st	ADJ	_	_	17	amod	_	CSType=Intra|Lang=en|
+16	1st	1st	ADJ	_	_	17	amod	_	CSType=Intra|Lang=en
 17	Western	Western	NOUN	_	_	6	parataxis:sentence	_	CSType=Intra|Lang=en
 18	ar	ar	ADP	_	_	19	case	_	Lang=ga
 19	TG4	TG4	PROPN	_	_	17	nmod	_	SpaceAfter=No
