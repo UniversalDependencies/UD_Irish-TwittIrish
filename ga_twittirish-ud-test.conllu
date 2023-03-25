@@ -5367,7 +5367,7 @@
 3	:	:	PUNCT	_	_	5	punct	_	_
 4	Ní	is	AUX	_	_	5	cop	_	_
 5	díreach	díreach	ADJ	_	_	0	root	_	_
-6	@AnDuinnineach	@AnDuinnineach	PROPN	_	_	5	nsubj	_	CorrectSpaceAfter=No|SpaceAfter=Yes
+6	@AnDuinnineach	@AnDuinnineach	PROPN	_	_	5	nsubj	_	CorrectSpaceAfter=No
 7	...	...	PUNCT	_	_	10	punct	_	CorrectSpaceAfter=Yes|SpaceAfter=No
 8	Ach	ach	CCONJ	_	_	10	mark	_	_
 9	is	is	AUX	_	_	10	cop	_	_
