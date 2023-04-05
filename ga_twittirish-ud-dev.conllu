@@ -2120,29 +2120,6 @@
 7	monuar	monuar	INTJ	_	_	2	discourse	_	Lang=ga|SpaceAfter=No
 8	!	!	PUNCT	_	_	2	punct	_	_
 
-# sent_id = NTC_240
-# text = RT @user635: Osclaíonn @user467 i bpictiúrlanna na hÉireann anocht: Irish Language Doc Released in Irish Cinemas https://t.co/Qu16WCNE…
-1	RT	RT	SYM	_	_	4	parataxis:rt	_	_
-2	@user635	@user635	PROPN	_	_	4	vocative:mention	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	4	punct	_	_
-4	Osclaíonn	oscail	VERB	_	_	0	root	_	Lang=ga
-5	@user467	@user467	PROPN	_	_	4	nsubj	_	Lang=ga
-6	i	i	ADP	_	_	7	case	_	Lang=ga
-7	bpictiúrlanna	pictiúr	NOUN	_	_	4	obl	_	Lang=ga
-8	na	an	DET	_	_	9	det	_	Lang=ga
-9	hÉireann	Éire	PROPN	_	_	7	nmod	_	Lang=ga
-10	anocht	anocht	ADV	_	_	4	advmod	_	Lang=ga|SpaceAfter=No
-11	:	:	PUNCT	_	_	12	punct	_	_
-12	Irish	Irish	ADJ	_	_	13	amod	_	Lang=en
-13	Language	language	NOUN	_	_	14	nmod	_	Lang=en
-14	Doc	doc	NOUN	_	_	15	nsubj	_	Lang=en
-15	Released	release	VERB	_	_	4	parataxis:sentence	_	Lang=en
-16	in	i	ADP	_	_	17	case	_	Lang=en
-17	Irish	Irish	PROPN	_	_	18	amod	_	Lang=en
-18	Cinemas	cinema	NOUN	_	_	15	nmod	_	Lang=en
-19	https://t.co/Qu16WCNE	https://t.co/qu16wcne	SYM	_	_	4	parataxis:url	_	SpaceAfter=No
-20	…	…	PUNCT	_	_	4	punct	_	_
-
 # sent_id = NTC_241
 # text = @user505 @user791 @user1276 Dá mbeadh spré ag an gcat ...
 1	@user505	@user505	PROPN	_	_	5	vocative:mention	_	_
@@ -2618,23 +2595,6 @@
 21	!!!	!!	PUNCT	_	_	4	punct	_	_
 22	http://t.co/vAVu3	http://t.co/vAVu3	SYM	_	_	4	parataxis:url	_	SpaceAfter=No
 23	…	…	PUNCT	_	_	4	punct	_	_
-
-# sent_id = NTC_265
-# text = RT @user1071: @user1213 @user1339 so true! Ag súil go mór leis http://t.co/xxCIMR3deD
-1	RT	RT	SYM	_	_	7	parataxis:rt	_	_
-2	@user1071	@user1071	PROPN	_	_	7	vocative:mention	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	7	punct	_	_
-4	@user1213	@user1213	PROPN	_	_	7	vocative:mention	_	_
-5	@user1339	@user1339	PROPN	_	_	7	vocative:mention	_	_
-6	so	so	ADV	_	_	7	advmod	_	Lang=en
-7	true	true	NOUN	_	_	0	root	_	Lang=en|SpaceAfter=No
-8	!	!	PUNCT	_	_	7	punct	_	_
-9	Ag	ag	ADP	_	_	10	case	_	Lang=ga
-10	súil	súil	NOUN	_	_	7	parataxis:sentence	_	Lang=ga
-11	go	go	PART	_	_	12	mark:prt	_	Lang=ga
-12	mór	mór	ADJ	_	_	10	advmod	_	Lang=ga
-13	leis	le	ADP	_	_	10	obl:prep	_	Lang=ga
-14	http://t.co/xxCIMR3deD	http://t.co/xxCIMR3deD	SYM	_	_	7	parataxis:url	_	_
 
 # sent_id = NTC_266
 # text = Scéim Iasachta Trealaimh ar fáil ARÍS i mbliana! Tuilleadh eolais anseo https://t.co/joeJiCxr2X https://t.co/kV4x6GlepI
@@ -6145,7 +6105,7 @@
 22	?	?	PUNCT	_	_	2	punct	_	_
 23	@user603	@user603	PROPN	_	_	2	vocative:mention	_	_
 
-# sent_id = LTC_11
+# sent_id = LTC_711
 # text = @user263 @user1478 sea sea tá an mada gleoite. Tuairim agat faoin mbuncheist? Rón, táim a ceapadh.
 1	@user263	@user263	PROPN	_	_	5	vocative:mention	_	_
 2	@user1478	@user1478	PROPN	_	_	5	vocative:mention	_	_
@@ -8273,7 +8233,7 @@
 19	2015	2015	NUM	_	_	15	flat	_	Lang=ga|SpaceAfter=No
 20	!!	!!	PUNCT	_	_	4	punct	_	_
 
-# sent_id = NTC_1405
+# sent_id = NTC_452
 # text = @user263 @user241 Sin an Ghaelscoil sa Chéim nach ea?
 1	@user263	@user263	PROPN	_	_	3	vocative:mention	_	_
 2	@user241	@user241	PROPN	_	_	3	vocative:mention	_	_
@@ -16986,7 +16946,7 @@
 29	mé	mé	PRON	_	_	28	nsubj	_	Lang=ga|SpaceAfter=No
 30	…	…	PUNCT	_	_	7	punct	_	_
 
-# sent_id = NTC_1125
+# sent_id = NTC_844
 # text = @user27 @user263 @user1390 nuair a chuireas tús leis an cuntas sin ní raibh daoine ar an twitter
 1	@user27	@user27	PROPN	_	_	13	vocative:mention	_	_
 2	@user263	@user263	PROPN	_	_	13	vocative:mention	_	_

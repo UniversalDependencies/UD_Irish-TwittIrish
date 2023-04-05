@@ -17194,7 +17194,7 @@
 12	leasú	leasú	NOUN	_	_	11	obj	_	Lang=ga|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = NTC_1405
+# sent_id = NTC_20969
 # text = @user263 @user241 @user715 @user794 @user145 sin a dheireann @user918 ach ar bhealach i bhfad níos deise ná "cargus".
 1	@user263	@user263	PROPN	_	_	6	vocative:mention	_	_
 2	@user241	@user241	PROPN	_	_	6	vocative:mention	_	_
@@ -17542,7 +17542,7 @@
 34	…	…	PUNCT	_	_	1	punct	_	_
 35	https://t.co/vwjWtoDJXG	https://t.co/vwjWtoDJXG	SYM	_	_	1	parataxis:url	_	_
 
-# sent_id = NTC_463
+# sent_id = NTC_20982
 # text = An Aimsir Inniu, Amárach agus Arú Amárach! #gaeilge #aimsir #Ireland https://t.co/2DLjJ79rVc
 1	An	an	DET	_	_	2	det	_	Lang=ga
 2	Aimsir	aimsir	NOUN	_	_	0	root	_	Lang=ga
