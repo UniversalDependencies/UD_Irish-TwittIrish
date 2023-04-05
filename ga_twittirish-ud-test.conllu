@@ -3082,7 +3082,7 @@
 13	https://t.co/bPoVsHyHi7	https://t.co/bPoVsHyHi7	SYM	_	_	6	parataxis:url	_	_
 14	Ireland	Ireland	PROPN	_	_	17	nmod	_	CSType=Intra|Lang=en|SpaceAfter=No
 15	's	's	PART	_	_	14	case	_	CSType=Intra|Lang=en
-16	1st	1st	ADJ	_	_	17	amod	_	CSType=Intra|Lang=en|
+16	1st	1st	ADJ	_	_	17	amod	_	CSType=Intra|Lang=en
 17	Western	Western	NOUN	_	_	6	parataxis:sentence	_	CSType=Intra|Lang=en
 18	ar	ar	ADP	_	_	19	case	_	Lang=ga
 19	TG4	TG4	PROPN	_	_	17	nmod	_	SpaceAfter=No
@@ -5367,7 +5367,7 @@
 3	:	:	PUNCT	_	_	5	punct	_	_
 4	Ní	is	AUX	_	_	5	cop	_	_
 5	díreach	díreach	ADJ	_	_	0	root	_	_
-6	@AnDuinnineach	@AnDuinnineach	PROPN	_	_	5	nsubj	_	CorrectSpaceAfter=No|SpaceAfter=Yes
+6	@AnDuinnineach	@AnDuinnineach	PROPN	_	_	5	nsubj	_	CorrectSpaceAfter=No
 7	...	...	PUNCT	_	_	10	punct	_	CorrectSpaceAfter=Yes|SpaceAfter=No
 8	Ach	ach	CCONJ	_	_	10	mark	_	_
 9	is	is	AUX	_	_	10	cop	_	_
