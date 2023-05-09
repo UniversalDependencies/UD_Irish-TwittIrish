@@ -5,90 +5,94 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>866</sentences><tokens>15433</tokens><words>15433</words><fused>0</fused></total>
-    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
-    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <total><sentences>2596</sentences><tokens>47790</tokens><words>47790</words><fused>0</fused></total>
+    <train><sentences>866</sentences><tokens>15777</tokens><words>15777</words><fused>0</fused></train>
+    <dev><sentences>864</sentences><tokens>16580</tokens><words>16580</words><fused>0</fused></dev>
     <test><sentences>866</sentences><tokens>15433</tokens><words>15433</words><fused>0</fused></test>
   </size>
-  <lemmas unique="4111" /><!-- an, ., bí, ag, ar, i, le, a, :, ,, !, go, rt, is, do -->
-  <forms unique="5051" /><!-- ., an, ar, a, :, ,, ag, !, go, RT, na, i, le, is, - -->
+  <lemmas unique="9524" /><!-- an, bí, ., ag, ar, i, le, :, a, ,, rt, !, do, go, is -->
+  <forms unique="11721" /><!-- ., an, ar, :, a, ,, ag, rt, !, na, go, le, i, agus, is -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">797</tag><!-- maith, mór, iontach, nua, ceart, beag, sona, breá, deas, déanach -->
-    <tag name="ADP">2097</tag><!-- ag, i, ar, le, do, ó, de, faoi, as, go -->
-    <tag name="ADV">380</tag><!-- anocht, anois, inniu, anseo, amach, amárach, arís, ansin, cá, chomh -->
-    <tag name="AUX">184</tag><!-- is, be, do, can, might, must, should, will, would -->
-    <tag name="CCONJ">246</tag><!-- agus, ach, &, nó, and, ná, +, /, ┐, 7 -->
-    <tag name="DET">905</tag><!-- an, seo, mo, a, eile, sin, na, aon, the, gach -->
-    <tag name="INTJ">64</tag><!-- ah, bhuel, ha, haha, abú, oh, ó, Hup, LOL, hmmm -->
-    <tag name="NOUN">2994</tag><!-- duine, lá, cara, oíche, fad, bliain, ceann, féidir, maith, rud -->
-    <tag name="NUM">272</tag><!-- 2, 1, 0, 10, 7, 8, 6, céad, dó, míle -->
-    <tag name="PART">635</tag><!-- a, go, is, ní, níos, ó, an, nach, mac, ná -->
-    <tag name="PRON">454</tag><!-- mé, é, tú, sin, sé, seo, siad, sibh, muid, cé -->
-    <tag name="PROPN">2284</tag><!-- Gaeilge, @aonghusoha, @TG4TV, Éire, @maitiuocoimin, @RTERnaG, Nollaig, @KingDonncha1, @tuigim, @cnag -->
-    <tag name="PUNCT">2027</tag><!-- ., :, ,, !, -, ?, …, ', ..., " -->
-    <tag name="SCONJ">81</tag><!-- má, ach, agus, ná, nuair, mar, dá, muna, ar, as -->
-    <tag name="SYM">674</tag><!-- rt, :), :D, :-), ;), :(, <3, http:/, http://t., x -->
-    <tag name="VERB">938</tag><!-- bí, déan, cuir, abair, tabhair, éirigh, bain, feic, faigh, caith -->
-    <tag name="X">401</tag><!-- #gaeilge, _, #gaa, #tg4, #lágaeilge, pm, #clg, #gaelic, srl., # -->
+    <tag name="ADJ">2354</tag><!-- maith, mór, iontach, nua, amháin, beag, beo, breá, ceart, déanach -->
+    <tag name="ADP">6437</tag><!-- ag, ar, i, le, do, ó, de, faoi, as, go -->
+    <tag name="ADV">1137</tag><!-- inniu, anois, anocht, anseo, amárach, amach, arís, chomh, riamh, fós -->
+    <tag name="AUX">513</tag><!-- is, be, will, do, can, have, would, could, might, must -->
+    <tag name="CCONJ">847</tag><!-- agus, &, ach, nó, ná, and, +, 7, is, v -->
+    <tag name="DET">2791</tag><!-- an, a, seo, mo, eile, do, the, sin, na, aon -->
+    <tag name="INTJ">183</tag><!-- abú, ha, haha, bhuel, ah, hup, ó, sea, Hi, ahh -->
+    <tag name="NOUN">9478</tag><!-- duine, lá, ceann, bliain, seachtain, cara, cuid, fad, déanamh, oíche -->
+    <tag name="NUM">962</tag><!-- 2, 1, céad, dó, 3, 0, míle, 8, 4, 7 -->
+    <tag name="PART">1820</tag><!-- a, go, an, ní, is, níos, ó, nach, do, mac -->
+    <tag name="PRON">1422</tag><!-- mé, é, tú, sé, sin, seo, muid, sibh, féin, siad -->
+    <tag name="PROPN">7181</tag><!-- gaeilge, @user241, @user1140, @user263, @user288, @user27, Éire, Nollaig, @user412, @user635 -->
+    <tag name="PUNCT">6159</tag><!-- ., :, ,, !, …, -, ?, ', ..., " -->
+    <tag name="SCONJ">253</tag><!-- má, ach, mar, ná, nuair, agus, dá, cé, mura, muna -->
+    <tag name="SYM">2313</tag><!-- rt, :), ;), :-), :(, :D, %, Foinse.ie, http, 🍀 -->
+    <tag name="VERB">2743</tag><!-- bí, déan, cuir, bain, abair, tabhair, feic, éirigh, faigh, caith -->
+    <tag name="X">1197</tag><!-- #gaeilge, _, #gaa, #tg4, #clg, pm, #lágaeilge, #snag, #gaelic, #gaeltacht -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="52">
-    <dep name="acl">5</dep>
-    <dep name="acl:relcl">90</dep>
-    <dep name="advcl">80</dep>
-    <dep name="advmod">471</dep>
-    <dep name="amod">404</dep>
-    <dep name="appos">76</dep>
-    <dep name="aux">12</dep>
-    <dep name="case">1572</dep>
-    <dep name="case:voc">25</dep>
-    <dep name="cc">229</dep>
-    <dep name="ccomp">77</dep>
-    <dep name="compound">39</dep>
-    <dep name="compound:prt">6</dep>
-    <dep name="conj">312</dep>
-    <dep name="cop">172</dep>
-    <dep name="csubj">3</dep>
-    <dep name="csubj:cleft">36</dep>
-    <dep name="csubj:cop">48</dep>
-    <dep name="dep">1</dep>
-    <dep name="det">793</dep>
-    <dep name="discourse">58</dep>
-    <dep name="discourse:emo">129</dep>
+  <deps unique="56">
+    <dep name="acl">52</dep>
+    <dep name="acl:relcl">308</dep>
+    <dep name="advcl">267</dep>
+    <dep name="advmod">1376</dep>
+    <dep name="amod">1251</dep>
+    <dep name="appos">197</dep>
+    <dep name="aux">35</dep>
+    <dep name="case">5055</dep>
+    <dep name="case:voc">97</dep>
+    <dep name="cc">810</dep>
+    <dep name="ccomp">203</dep>
+    <dep name="compound">122</dep>
+    <dep name="compound:prt">14</dep>
+    <dep name="conj">1084</dep>
+    <dep name="cop">473</dep>
+    <dep name="csubj">5</dep>
+    <dep name="csubj:cleft">84</dep>
+    <dep name="csubj:cop">139</dep>
+    <dep name="dep">2</dep>
+    <dep name="det">2476</dep>
+    <dep name="det:poss">329</dep>
+    <dep name="discourse">149</dep>
+    <dep name="discourse:emo">408</dep>
     <dep name="expl">2</dep>
-    <dep name="fixed">149</dep>
-    <dep name="flat">114</dep>
-    <dep name="flat:foreign">1</dep>
-    <dep name="flat:name">176</dep>
-    <dep name="goeswith">23</dep>
-    <dep name="iobj">1</dep>
-    <dep name="list">1</dep>
-    <dep name="mark">200</dep>
-    <dep name="mark:prt">358</dep>
-    <dep name="nmod">1339</dep>
-    <dep name="nmod:poss">120</dep>
-    <dep name="nsubj">710</dep>
-    <dep name="nummod">67</dep>
-    <dep name="obj">374</dep>
-    <dep name="obl">656</dep>
-    <dep name="obl:prep">355</dep>
-    <dep name="obl:tmod">134</dep>
+    <dep name="fixed">387</dep>
+    <dep name="flat">241</dep>
+    <dep name="flat:foreign">12</dep>
+    <dep name="flat:name">536</dep>
+    <dep name="goeswith">49</dep>
+    <dep name="iobj">2</dep>
+    <dep name="list">2</dep>
+    <dep name="mark">580</dep>
+    <dep name="mark:prt">993</dep>
+    <dep name="nmod">4340</dep>
+    <dep name="nmod:poss">19</dep>
+    <dep name="nmod:tmod">3</dep>
+    <dep name="nsubj">2083</dep>
+    <dep name="nsubj:outer">4</dep>
+    <dep name="nummod">230</dep>
+    <dep name="obj">1099</dep>
+    <dep name="obl">2339</dep>
+    <dep name="obl:prep">1048</dep>
+    <dep name="obl:tmod">435</dep>
     <dep name="orphan">1</dep>
-    <dep name="parataxis">313</dep>
-    <dep name="parataxis:hashtag">321</dep>
-    <dep name="parataxis:rt">204</dep>
-    <dep name="parataxis:sentence">478</dep>
-    <dep name="parataxis:url">295</dep>
-    <dep name="punct">2027</dep>
-    <dep name="root">866</dep>
-    <dep name="vocative">50</dep>
-    <dep name="vocative:mention">931</dep>
-    <dep name="xcomp">281</dep>
-    <dep name="xcomp:pred">248</dep>
+    <dep name="parataxis">858</dep>
+    <dep name="parataxis:hashtag">980</dep>
+    <dep name="parataxis:rt">743</dep>
+    <dep name="parataxis:sentence">1369</dep>
+    <dep name="parataxis:url">1080</dep>
+    <dep name="punct">6157</dep>
+    <dep name="reparandum">1</dep>
+    <dep name="root">2596</dep>
+    <dep name="vocative">158</dep>
+    <dep name="vocative:mention">2940</dep>
+    <dep name="xcomp">866</dep>
+    <dep name="xcomp:pred">701</dep>
   </deps>
 </treebank>
