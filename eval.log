@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Irish-TwittIrish:
-commit 0a7d58e598618a8f986beda0cbe73142a90b698a
+commit 37ccc4af075b9962990417b665c3bc3428ce964e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 07:32:43 2023 +0200
+Date:   Tue May 9 10:48:02 2023 +0200
 Size: counted 47790 of 47790 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.73363282518013.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,15 +20,26 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Udapi:
-               TOTAL       8745
-Udapi: found 8745 bugs.
+               TOTAL       8742
+Udapi: found 8742 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 47790 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-dev.conllu
+[Line 4053 Sent NTC_354 Node 26]: [L3 Warning fixed-gap] Gaps in fixed expression [26, 28] 'iontach * son'
+[Line 14582 Sent NTC_733 Node 44]: [L3 Warning fixed-gap] Gaps in fixed expression [44, 46] 'míosa * chugainn'
+Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-test.conllu
+[Line 2994 Sent NTC_230 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 6] 'Rud * bith'
+[Line 7315 Sent LTC_185 Node 10]: [L3 Warning fixed-gap] Gaps in fixed expression [10, 12] 'craic * bith'
+Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-train.conllu
+[Line 353 Sent NTC_955 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 10] 'craoladh * * dtí'
+[Line 4953 Sent NTC_1161 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18] 'fháil * gcaitheamh'
+[Line 11823 Sent LTC_1058 Node 20]: [L3 Warning fixed-gap] Gaps in fixed expression [20, 24] 'Feicfimid * * * chugainn'
+[Line 15735 Sent LTC_1246 Node 14]: [L3 Warning fixed-gap] Gaps in fixed expression [14, 16] 'Sin * leor'
+Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
