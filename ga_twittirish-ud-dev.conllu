@@ -4232,7 +4232,7 @@
 14	Déardaoin	Déardaoin	NOUN	_	_	11	conj	_	Lang=ga|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	31	31	NUM	_	_	11	conj	_	Lang=ga
-17	Eanair	Eanáir	PROPN	_	_	16	flat	_	CorrecForm=Eanáir|Lang=ga
+17	Eanair	Eanáir	PROPN	_	_	16	flat	_	CorrectForm=Eanáir|Lang=ga
 18	Tuilleadh	tuilleadh	NOUN	_	_	1	parataxis	_	Lang=ga
 19	eolais	eolas	NOUN	_	_	18	nmod	_	Lang=ga
 20	https://t.co/3KyXqBCEUN	https://t.co/3KyXqBCEUN	SYM	_	_	1	parataxis:url	_	_
