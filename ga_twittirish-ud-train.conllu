@@ -9304,10 +9304,10 @@
 4	ina	i	ADP	_	_	5	case	_	Lang=ga
 5	choladh	codladh	NOUN	_	_	1	xcomp:pred	_	Lang=ga
 6	:(	:(	SYM	_	_	1	discourse:emo	_	_
-7	Taim	bí	VERB	_	_	1	parataxis:sentence	_	CorrectFrom=Táim|Lang=ga
+7	Taim	bí	VERB	_	_	1	parataxis:sentence	_	CorrectForm=Táim|Lang=ga
 8	ag	ag	ADP	_	_	9	case	_	Lang=ga
 9	iarraidh	iarraidh	NOUN	_	_	7	xcomp	_	Lang=ga
-10	teacs	téacs	NOUN	_	_	9	obj	_	CorrectFrom=téacs|Lang=ga
+10	teacs	téacs	NOUN	_	_	9	obj	_	CorrectForm=téacs|Lang=ga
 11	teachtaireacht	teachtaireacht	NOUN	_	_	10	nmod	_	Lang=ga
 12	ar	ar	ADV	_	_	9	advmod	_	Lang=ga
 13	ais	ais	ADV	_	_	12	fixed	_	Lang=ga
@@ -9552,7 +9552,7 @@
 # text = Tá aois titithe ar Amanda Byram. #latelate breatnaíonn sí i bhfad níos sine ná 38
 1	Tá	bí	VERB	_	_	0	root	_	Lang=ga
 2	aois	aois	NOUN	_	_	1	nsubj	_	Lang=ga
-3	titithe	tite	ADJ	_	_	2	amod	_	CorrectFrom=tite|Lang=ga
+3	titithe	tite	ADJ	_	_	2	amod	_	CorrectForm=tite|Lang=ga
 4	ar	ar	ADP	_	_	5	case	_	Lang=ga
 5	Amanda	Amanda	PROPN	_	_	1	obl	_	_
 6	Byram	Byram	PROPN	_	_	5	flat:name	_	SpaceAfter=No
@@ -10114,7 +10114,7 @@
 5	Dún	dún	NOUN	_	_	0	root	_	Lang=ga
 6	Beag	beag	ADJ	_	_	5	amod	_	Lang=ga
 7	creimithe	creimthe	ADJ	_	_	5	xcomp:pred	_	Lang=ga
-8	aige	ag	ADP	_	_	9	obl:prep	_	CorrectFrom=ag|Lang=ga
+8	aige	ag	ADP	_	_	9	obl:prep	_	CorrectForm=ag|Lang=ga
 9	farraigí	farraige	NOUN	_	_	5	nmod	_	Lang=ga
 10	árda	árd	ADJ	_	_	9	amod	_	CorrectForm=arda|SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -17122,7 +17122,7 @@
 2	Ta	bí	VERB	_	_	0	root	_	CorrectForm=Tá|Lang=ga
 3	siad	siad	PRON	_	_	2	nsubj	_	Lang=ga|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	ta	bí	VERB	_	_	2	parataxis	_	Correctform=tá|Lang=ga
+5	ta	bí	VERB	_	_	2	parataxis	_	CorrectForm=tá|Lang=ga
 6	mo	mo	DET	_	_	8	det:poss	_	Lang=ga
 7	'	'	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	mood	mood	NOUN	_	_	5	nsubj	_	Lang=en|SpaceAfter=No
@@ -17227,7 +17227,7 @@
 5	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	An	an	PART	_	_	7	mark:prt	_	Lang=ga
 7	bhfuil	bí	VERB	_	_	0	root	_	Lang=ga
-8	chead	cead	NOUN	_	_	7	nsubj	_	Correctform=cead|Lang=ga
+8	chead	cead	NOUN	_	_	7	nsubj	_	CorrectForm=cead|Lang=ga
 9	agam	ag	ADP	_	_	7	obl:prep	_	Lang=ga
 10	dul	dul	NOUN	_	_	7	xcomp	_	Lang=ga
 11	go	go	ADP	_	_	14	case	_	Lang=ga

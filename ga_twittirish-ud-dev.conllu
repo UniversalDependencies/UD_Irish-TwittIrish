@@ -2802,7 +2802,7 @@
 20	na	an	DET	_	_	21	det	_	Lang=ga
 21	Bliana	bliain	NOUN	_	_	19	nmod	_	Lang=ga
 22	an	an	DET	_	_	23	det	_	Lang=ga
-23	seachtain	seachtain	NOUN	_	_	21	nmod	_	CorrectFrom=tseachtain|Lang=ga
+23	seachtain	seachtain	NOUN	_	_	21	nmod	_	CorrectForm=tseachtain|Lang=ga
 24	…	…	PUNCT	_	_	12	punct	_	_
 25	http://t.co/mNTYaoeW	http://t.co/mNTYaoeW	SYM	_	_	1	parataxis:url	_	_
 
@@ -17606,7 +17606,7 @@
 # sent_id = NTC_871
 # text = De phribléid & de dhúshlán agam féin #Gaeilge a chur ar shleachta Odaisé de chuid Homer d’ @user931 2019 - Féile Litríochta Gaeilge / Irish-language Literature Festival (4 –26 Deireadh Fómhair/October 2019, Dublin) Clár iontach arís i mbliana https://t.co/b4D5fN2rF2 https://t.co/wmBKoocwpe
 1	De	de	ADP	_	_	2	case	_	Lang=ga
-2	phribléid	pribhléid	NOUN	_	_	0	root	_	CorrectFrom=phribhléid|Lang=ga
+2	phribléid	pribhléid	NOUN	_	_	0	root	_	CorrectForm=phribhléid|Lang=ga
 3	&	&	CCONJ	_	_	5	cc	_	Lang=ga
 4	de	de	ADP	_	_	5	case	_	Lang=ga
 5	dhúshlán	dhúshlán	NOUN	_	_	2	conj	_	Lang=ga
@@ -19061,7 +19061,7 @@
 6	do	do	ADP	_	_	8	case	_	Lang=ga
 7	na	an	DET	_	_	8	det	_	Lang=ga
 8	peileadóirí	peileadóir	NOUN	_	_	4	nmod	_	Lang=ga
-9	sinsearach	sinsearach	ADJ	_	_	8	amod	_	correctForm=sinsearacha|Lang=ga
+9	sinsearach	sinsearach	ADJ	_	_	8	amod	_	CorrectForm=sinsearacha|Lang=ga
 10	Padraig	Padraig	PROPN	_	_	8	nmod	_	Lang=ga
 11	Saírseíl	Saírseíl	PROPN	_	_	10	flat:name	_	Lang=ga
 12	don	do	ADP	_	_	13	case	_	Lang=ga
