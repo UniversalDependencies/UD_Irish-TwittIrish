@@ -4742,7 +4742,7 @@
 4	Slan	slán	NOUN	_	_	3	appos	_	Lang=ga
 5	le	le	ADP	_	_	6	case	_	Lang=ga
 6	Sean	Sean	PROPN	_	_	4	nmod	_	Lang=ga
-7	an	maith	ADJ	_	_	1	xcomp:pred	_	correctForm=an-mhaith|Lang=ga
+7	an	maith	ADJ	_	_	1	xcomp:pred	_	CorrectForm=an-mhaith|Lang=ga
 8	mhaith	_	X	_	_	7	goeswith	_	Lang=ga|SpaceAfter=No
 9	.	.	PUNCT	_	_	10	punct	_	_
 10	Caithfear	caith	VERB	_	_	1	parataxis	_	Lang=ga
@@ -5113,7 +5113,7 @@
 2	ce	cé	PRON	_	_	0	root	_	CorrectForm=cé|Lang=ga
 3	ata	é	PRON	_	_	2	acl:relcl	_	CorrectForm=atá|Lang=ga
 4	an	an	DET	_	_	5	det	_	Lang=ga
-5	athair	athair	NOUN	_	_	3	nsubj	_	correctForm=t-athair|Lang=ga
+5	athair	athair	NOUN	_	_	3	nsubj	_	CorrectForm=t-athair|Lang=ga
 6	:O	:O	SYM	_	_	2	discourse:emo	_	_
 
 # sent_id = LTC_90
@@ -8342,7 +8342,7 @@
 5	bheadh	bí	VERB	_	_	0	root	_	Lang=ga
 6	deacrachtaí	deacracht	NOUN	_	_	5	nsubj	_	Lang=ga
 7	áirithe	áirithe	ADJ	_	_	6	amod	_	Lang=ga
-8	san	i	ADP	_	_	9	case	_	Correctform=sa|Lang=ga
+8	san	i	ADP	_	_	9	case	_	CorrectForm=sa|Lang=ga
 9	gnás	gnás	NOUN	_	_	5	obl	_	Lang=ga
 10	sin	sin	DET	_	_	9	det	_	Lang=ga
 11	don	do	ADP	_	_	12	case	_	Lang=ga
@@ -10509,7 +10509,7 @@
 3	:	:	PUNCT	_	_	5	punct	_	_
 4	@user1376	@user1376	PROPN	_	_	5	vocative:mention	_	_
 5	Craobh	craobh	NOUN	_	_	0	root	_	Lang=ga
-6	Laighin	Laighean	PROPN	_	_	5	nmod	_	CorrectFrom=Laighean|Lang=ga
+6	Laighin	Laighean	PROPN	_	_	5	nmod	_	CorrectForm=Laighean|Lang=ga
 7	Peile	peil	NOUN	_	_	5	nmod	_	Lang=ga
 8	Sinsir	sinsear	NOUN	_	_	5	nmod	_	Lang=ga
 9	Dé	Dé	NOUN	_	_	5	obl:tmod	_	Lang=ga
@@ -10872,7 +10872,7 @@
 4	Tá	bí	VERB	_	_	0	root	_	Lang=ga
 5	sin	sin	PRON	_	_	4	nsubj	_	Lang=ga
 6	i	i	ADP	_	_	7	case	_	CorrectForm=in|Lang=ga
-7	mBarcelóna	Barcelona	PROPN	_	_	4	xcomp:pred	_	CorrectFrom=Barcelona|Lang=ga
+7	mBarcelóna	Barcelona	PROPN	_	_	4	xcomp:pred	_	CorrectForm=Barcelona|Lang=ga
 8	is	is	AUX	_	_	9	cop	_	Lang=ga
 9	cosúil	cosúil	ADJ	_	_	4	parataxis	_	Lang=ga
 10	gur	is	AUX	_	_	11	cop	_	Lang=ga
@@ -14359,7 +14359,7 @@
 12	Ioruaise	Ioruais	PROPN	_	_	11	nmod	_	Lang=ga
 13	a	a	PART	_	_	14	mark	_	Lang=ga
 14	sheoladh	seol	VERB	_	_	9	csubj:cop	_	Lang=ga
-15	chúm	chuig	ADP	_	_	14	obl:prep	_	Correctform=chugam|Lang=ga
+15	chúm	chuig	ADP	_	_	14	obl:prep	_	CorrectForm=chugam|Lang=ga
 16	ó	ó	ADP	_	_	17	case	_	Lang=ga
 17	Osló	Osló	PROPN	_	_	14	obl	_	Lang=ga|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -15092,7 +15092,7 @@
 4	ceol	ceol	NOUN	_	_	3	nsubj	_	Lang=ga
 5	tradisiunta	traidisiúnta	ADJ	_	_	3	amod	_	CorrectForm=traidisiúnta|Lang=ga
 6	i	i	ADP	_	_	7	case	_	Lang=ga
-7	de	de	PROPN	_	_	3	obl	_	CorrectSpaceAfterNo=Yes|SpaceAfter=No
+7	de	de	PROPN	_	_	3	obl	_	CorrectSpaceAfter=Yes|SpaceAfter=No
 8	Barra	Barra	PROPN	_	_	3	obl	_	SpaceAfter=No
 9	's	's	PART	_	_	8	case	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_

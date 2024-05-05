@@ -48,11 +48,11 @@ Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: social
-Lemmas: converted with corrections
-UPOS: converted with corrections
+Lemmas: manual native
+UPOS: manual native
 XPOS: not available
 Features: not available
-Relations: automatic with corrections
+Relations: manual native
 Contributors: Cassidy, Lauren; Lynn, Teresa; Foster, Jennifer; McGuinness, Sarah
 Contributing: elsewhere
 Contact: lauren.cassidy@adaptcentre.ie; teresa.lynn@adaptcentre.ie
