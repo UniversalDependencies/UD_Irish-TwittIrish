@@ -1,55 +1,70 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Irish-TwittIrish:
-commit 37ccc4af075b9962990417b665c3bc3428ce964e
+commit c81980405cac513943a0fe39e5a9b5cfa1ffab66
+Merge: 29987b1 1e56fe6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 10:48:02 2023 +0200
 Size: counted 47790 of 47790 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.73363282518013.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
-Lemmas: source of annotation (from README) factor is 0.9.
+Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 0.9.
+Universal POS tags: source of annotation (from README) factor is 1.
 Features: 0 out of 47790 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 35 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 0.1.
+Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       8742
-Udapi: found 8742 bugs.
+               TOTAL       8737
+Udapi: found 8737 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 47790 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-dev.conllu
 [Line 4053 Sent NTC_354 Node 26]: [L3 Warning fixed-gap] Gaps in fixed expression [26, 28] 'iontach * son'
+[Line 10751 Sent NTC_566 Node 26]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 10750 Sent NTC_566 Node 25]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 14582 Sent NTC_733 Node 44]: [L3 Warning fixed-gap] Gaps in fixed expression [44, 46] 'míosa * chugainn'
-Warnings: 2
+[Line 17092 Sent NTC_851 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 17091 Sent NTC_851 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 18964 Sent NTC_929 Node 25]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 18961 Sent NTC_929 Node 22]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 8
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-test.conllu
+[Line 1477 Sent NTC_87 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1476 Sent NTC_87 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 2994 Sent NTC_230 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 6] 'Rud * bith'
 [Line 7315 Sent LTC_185 Node 10]: [L3 Warning fixed-gap] Gaps in fixed expression [10, 12] 'craic * bith'
-Warnings: 2
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-train.conllu
+[Line 21 Sent NTC_939 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20 Sent NTC_939 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 22 Sent NTC_939 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20 Sent NTC_939 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 23 Sent NTC_939 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20 Sent NTC_939 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 353 Sent NTC_955 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 10] 'craoladh * * dtí'
+[Line 2161 Sent NTC_1036 Node 25]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2160 Sent NTC_1036 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 4953 Sent NTC_1161 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18] 'fháil * gcaitheamh'
-[Line 11823 Sent LTC_1058 Node 20]: [L3 Warning fixed-gap] Gaps in fixed expression [20, 24] 'Feicfimid * * * chugainn'
-[Line 15735 Sent LTC_1246 Node 14]: [L3 Warning fixed-gap] Gaps in fixed expression [14, 16] 'Sin * leor'
-Warnings: 4
+...suppressing further errors regarding Warning
+Warnings: 20
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
-(weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.559779010173598) = 0.143533079531692
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
+(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.0945945945945946) = 0.00727650727650728
-(TOTAL score=0.348924217275771) * (availability=1) * (validity=1) = 0.348924217275771
-STARS = 1.5
-UD_Irish-TwittIrish	0.348924217275771	1.5
+(weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
+(TOTAL score=0.429797398148952) * (availability=1) * (validity=1) = 0.429797398148952
+STARS = 2
+UD_Irish-TwittIrish	0.429797398148952	2
