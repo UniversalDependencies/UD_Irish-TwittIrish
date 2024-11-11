@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Irish-TwittIrish:
-commit c81980405cac513943a0fe39e5a9b5cfa1ffab66
-Merge: 29987b1 1e56fe6
+commit b087ae3027e2c4829245373044117b567c0e6b8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 12:37:28 2024 +0200
 Size: counted 47790 of 47790 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.73363282518013.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,22 +25,27 @@ Udapi: found 8737 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 47790 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-dev.conllu
+[Line 2084 Sent NTC_234 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:an:det --> 10:a:mark)
+[Line 3804 Sent NTC_343 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:An:det --> 5:mó:amod)
 [Line 4053 Sent NTC_354 Node 26]: [L3 Warning fixed-gap] Gaps in fixed expression [26, 28] 'iontach * son'
 [Line 10751 Sent NTC_566 Node 26]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 10750 Sent NTC_566 Node 25]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 12869 Sent NTC_659 Node 25]: [L3 Warning leaf-det] 'det' not expected to have children (25:the:det --> 23:'ve:aux)
+[Line 13967 Sent NTC_709 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:na:det --> 13:ama:nmod)
 [Line 14582 Sent NTC_733 Node 44]: [L3 Warning fixed-gap] Gaps in fixed expression [44, 46] 'míosa * chugainn'
+[Line 16240 Sent NTC_812 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:all:det --> 7:@user1303:nmod)
 [Line 17092 Sent NTC_851 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 17091 Sent NTC_851 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 18964 Sent NTC_929 Node 25]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 18961 Sent NTC_929 Node 22]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 8
+...suppressing further errors regarding Warning
+Warnings: 14
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-test.conllu
 [Line 1477 Sent NTC_87 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 1476 Sent NTC_87 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 2994 Sent NTC_230 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 6] 'Rud * bith'
+[Line 3399 Sent NTC_333 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:an:det --> 8:BBC:nmod)
 [Line 7315 Sent LTC_185 Node 10]: [L3 Warning fixed-gap] Gaps in fixed expression [10, 12] 'craic * bith'
-Warnings: 4
+[Line 13344 Sent LTC_471 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:an:det --> 15:dubh:amod)
+Warnings: 6
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-train.conllu
 [Line 21 Sent NTC_939 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
@@ -54,7 +59,7 @@ Warnings: 4
 [Line 2160 Sent NTC_1036 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 4953 Sent NTC_1161 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18] 'fháil * gcaitheamh'
 ...suppressing further errors regarding Warning
-Warnings: 20
+Warnings: 24
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
