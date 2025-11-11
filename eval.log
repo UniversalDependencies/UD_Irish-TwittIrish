@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Irish-TwittIrish:
-commit 34ccb8ca85854487ebd9aca59b81b9988b633291
+commit c9cc9a9cc24f3ce3706336e8aafe08144c94ff69
+Merge: 2a8bc78 2ac371e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 15:45:35 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ga_twittirish'
+Language code (from CoNLL-U file name) = 'ga'
+Found the following data files: ga_twittirish-ud-dev.conllu, ga_twittirish-ud-test.conllu, ga_twittirish-ud-train.conllu
 Size: counted 47790 of 47790 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.73363282518013.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,101 +23,96 @@ Features: 0 out of 47790 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       8716
-Udapi: found 8716 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 47790 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-dev.conllu
-[Line 49 Sent NTC_132 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'maidir le' does not have the 'ExtPos' feature
-[Line 67 Sent NTC_133 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
-[Line 97 Sent NTC_134 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'ar son' does not have the 'ExtPos' feature
-[Line 210 Sent NTC_139 Node 30]: [L3 Warning fixed-without-extpos] Fixed expression 'Ar nós' does not have the 'ExtPos' feature
-[Line 308 Sent NTC_143 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'chomh maith' does not have the 'ExtPos' feature
-[Line 368 Sent NTC_146 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'De réir' does not have the 'ExtPos' feature
-[Line 556 Sent NTC_153 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'go leor' does not have the 'ExtPos' feature
-[Line 715 Sent NTC_161 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'maidir leis' does not have the 'ExtPos' feature
-[Line 825 Sent NTC_166 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
-[Line 961 Sent NTC_171 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'ach oiread' does not have the 'ExtPos' feature
-[Line 961 Sent NTC_171 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'ach'
+[Line 49 Sent NTC_132]: [L3 Warning fixed-without-extpos] Fixed expression 'maidir le' does not have the 'ExtPos' feature
+[Line 67 Sent NTC_133]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
+[Line 97 Sent NTC_134]: [L3 Warning fixed-without-extpos] Fixed expression 'ar son' does not have the 'ExtPos' feature
+[Line 186 Sent NTC_139]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'cúis') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 210 Sent NTC_139]: [L3 Warning fixed-without-extpos] Fixed expression 'Ar nós' does not have the 'ExtPos' feature
+[Line 308 Sent NTC_143]: [L3 Warning fixed-without-extpos] Fixed expression 'chomh maith' does not have the 'ExtPos' feature
+[Line 368 Sent NTC_146]: [L3 Warning fixed-without-extpos] Fixed expression 'De réir' does not have the 'ExtPos' feature
+[Line 556 Sent NTC_153]: [L3 Warning fixed-without-extpos] Fixed expression 'go leor' does not have the 'ExtPos' feature
+[Line 715 Sent NTC_161]: [L3 Warning fixed-without-extpos] Fixed expression 'maidir leis' does not have the 'ExtPos' feature
+[Line 825 Sent NTC_166]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-[Line 2084 Sent NTC_234 Node 12]: [L3 Syntax leaf-det] 'det' not expected to have children (12:an:det --> 10:a:mark)
-[Line 2593 Sent NTC_264 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
-[Line 3804 Sent NTC_343 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:An:det --> 5:mó:amod)
-[Line 7263 Sent LTC_768 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Mar'
-[Line 9577 Sent NTC_518 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 12864 Sent NTC_659 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
-[Line 12869 Sent NTC_659 Node 25]: [L3 Syntax leaf-det] 'det' not expected to have children (25:the:det --> 23:'ve:aux)
-[Line 13967 Sent NTC_709 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:na:det --> 13:ama:nmod)
-[Line 15023 Sent NTC_756 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 961 Sent NTC_171]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('ach')
+[Line 2084 Sent NTC_234]: [L3 Syntax leaf-det] 'det' not expected to have children (12:an:det --> 10:a:mark)
+[Line 2593 Sent NTC_264]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 3804 Sent NTC_343]: [L3 Syntax leaf-det] 'det' not expected to have children (4:An:det --> 5:mó:amod)
+[Line 7263 Sent LTC_768]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Mar')
+[Line 9577 Sent NTC_518]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 12026 Sent NTC_623]: [L3 Syntax too-many-objects] Multiple direct objects [7, 9] ('duine', 'pictiúr') under the predicate 'tarraingt'.
+[Line 12864 Sent NTC_659]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 12869 Sent NTC_659]: [L3 Syntax leaf-det] 'det' not expected to have children (25:the:det --> 23:'ve:aux)
+[Line 12946 Sent NTC_663]: [L3 Syntax too-many-objects] Multiple direct objects [19, 20] ('a', 'chéad') under the predicate 'tógadh'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 13
-Warnings: 123
-*** FAILED *** with 13 errors
+Syntax errors: 15
+Warnings: 153
+*** FAILED *** with 15 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-test.conllu
-[Line 37 Sent NTC_2 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'Ar son' does not have the 'ExtPos' feature
-[Line 129 Sent NTC_10 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'i ndiaidh' does not have the 'ExtPos' feature
-[Line 140 Sent NTC_10 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'go leor leor' does not have the 'ExtPos' feature
-[Line 357 Sent NTC_25 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
-[Line 404 Sent NTC_28 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'maidir le' does not have the 'ExtPos' feature
-[Line 544 Sent NTC_33 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'go dtí' does not have the 'ExtPos' feature
-[Line 746 Sent NTC_49 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'Go leor' does not have the 'ExtPos' feature
-[Line 1124 Sent NTC_65 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'laistiar den' does not have the 'ExtPos' feature
-[Line 1187 Sent NTC_70 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'go deo' does not have the 'ExtPos' feature
-[Line 1187 Sent NTC_70 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
-[Line 1318 Sent NTC_78 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'go deo' does not have the 'ExtPos' feature
-[Line 1318 Sent NTC_78 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
+[Line 37 Sent NTC_2]: [L3 Warning fixed-without-extpos] Fixed expression 'Ar son' does not have the 'ExtPos' feature
+[Line 129 Sent NTC_10]: [L3 Warning fixed-without-extpos] Fixed expression 'i ndiaidh' does not have the 'ExtPos' feature
+[Line 140 Sent NTC_10]: [L3 Warning fixed-without-extpos] Fixed expression 'go leor leor' does not have the 'ExtPos' feature
+[Line 201 Sent NTC_14]: [L3 Warning obl-should-be-nmod] The parent (node [2] '@user505') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 357 Sent NTC_25]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
+[Line 404 Sent NTC_28]: [L3 Warning fixed-without-extpos] Fixed expression 'maidir le' does not have the 'ExtPos' feature
+[Line 544 Sent NTC_33]: [L3 Warning fixed-without-extpos] Fixed expression 'go dtí' does not have the 'ExtPos' feature
+[Line 746 Sent NTC_49]: [L3 Warning fixed-without-extpos] Fixed expression 'Go leor' does not have the 'ExtPos' feature
+[Line 969 Sent NTC_59]: [L3 Syntax too-many-objects] Multiple direct objects [30, 33] ('a', 'duine') under the predicate 'chuala'.
+[Line 980 Sent NTC_59]: [L3 Warning obl-should-be-nmod] The parent (node [40] 'scaradh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1124 Sent NTC_65]: [L3 Warning fixed-without-extpos] Fixed expression 'laistiar den' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-[Line 2868 Sent NTC_207 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ar'
-[Line 3399 Sent NTC_333 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:an:det --> 8:BBC:nmod)
-[Line 3588 Sent LTC_13 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'thar'
-[Line 4817 Sent LTC_70 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 5055 Sent LTC_85 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Mar'
-[Line 5136 Sent LTC_90 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 6795 Sent LTC_158 Node 23]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 6955 Sent LTC_166 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 1187 Sent NTC_70]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 1318 Sent NTC_78]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 2868 Sent NTC_207]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('ar')
+[Line 3399 Sent NTC_333]: [L3 Syntax leaf-det] 'det' not expected to have children (6:an:det --> 8:BBC:nmod)
+[Line 3588 Sent LTC_13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('thar')
+[Line 4817 Sent LTC_70]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 5055 Sent LTC_85]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Mar')
+[Line 5136 Sent LTC_90]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 6365 Sent LTC_136]: [L3 Syntax too-many-objects] Multiple direct objects [5, 8] ('@user215', '@user1510') under the predicate 'Oscail'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 23
-Warnings: 149
-*** FAILED *** with 23 errors
+Syntax errors: 25
+Warnings: 177
+*** FAILED *** with 25 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-train.conllu
-[Line 21 Sent NTC_939 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 20 Sent NTC_939 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 22 Sent NTC_939 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 20 Sent NTC_939 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23 Sent NTC_939 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 20 Sent NTC_939 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 38 Sent NTC_940 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'i mbun' does not have the 'ExtPos' feature
-[Line 79 Sent NTC_942 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'i gceann' does not have the 'ExtPos' feature
-[Line 353 Sent NTC_955 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'craoladh dtí' does not have the 'ExtPos' feature
-[Line 353 Sent NTC_955 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 10] 'craoladh * * dtí'
+[Line 21 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 22 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 23 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 38 Sent NTC_940]: [L3 Warning fixed-without-extpos] Fixed expression 'i mbun' does not have the 'ExtPos' feature
+[Line 79 Sent NTC_942]: [L3 Warning fixed-without-extpos] Fixed expression 'i gceann' does not have the 'ExtPos' feature
+[Line 187 Sent NTC_946]: [L3 Warning obl-should-be-nmod] The parent (node [17] 'foghlaim') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 353 Sent NTC_955]: [L3 Warning fixed-without-extpos] Fixed expression 'craoladh dtí' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-[Line 825 Sent NTC_974 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
-[Line 2860 Sent NTC_1071 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 5612 Sent NTC_1190 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:do:det --> 12:gcampas:nmod)
-[Line 11187 Sent LTC_1028 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:ár:det --> 4:leantóirí:nmod)
-[Line 13901 Sent LTC_1156 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'roimh'
-[Line 14215 Sent LTC_1172 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:an:det --> 12:Nollaig:nmod)
-[Line 16461 Sent LTC_1283 Node 27]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'tar'
-[Line 16476 Sent LTC_1284 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'ach'
-[Line 16480 Sent LTC_1284 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 16635 Sent LTC_1292 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:An:det --> 8:cheann:nmod)
+[Line 825 Sent NTC_974]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 1007 Sent NTC_980]: [L3 Syntax too-many-objects] Multiple direct objects [45, 48] ('leithscéil', 'é') under the predicate 'dhéanamh'.
+[Line 2860 Sent NTC_1071]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 4863 Sent NTC_1158]: [L3 Syntax too-many-objects] Multiple direct objects [19, 21] ('Gaeilge', 'Go') under the predicate 'Give'.
+[Line 5612 Sent NTC_1190]: [L3 Syntax leaf-det] 'det' not expected to have children (8:do:det --> 12:gcampas:nmod)
+[Line 11187 Sent LTC_1028]: [L3 Syntax leaf-det] 'det' not expected to have children (3:ár:det --> 4:leantóirí:nmod)
+[Line 13901 Sent LTC_1156]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('roimh')
+[Line 14215 Sent LTC_1172]: [L3 Syntax leaf-det] 'det' not expected to have children (10:an:det --> 12:Nollaig:nmod)
+[Line 16461 Sent LTC_1283]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('tar')
+[Line 16476 Sent LTC_1284]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('ach')
 ...suppressing further errors regarding Syntax
-Syntax errors: 12
-Warnings: 137
-*** FAILED *** with 12 errors
+Syntax errors: 14
+Warnings: 179
+*** FAILED *** with 14 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.559779010173598) = 0.143533079531692
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.429546015544628) * (availability=1) * (validity=0.01) = 0.00429546015544628
+(weight=0.111111111111111) * (score{features}=0.01) = 0.00111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.559779010173598) = 0.207325559323555
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
+(TOTAL score=0.61601091134224) * (availability=1) * (validity=0.01) = 0.0061601091134224
 STARS = 0
-UD_Irish-TwittIrish	0.00429546015544628	0
+UD_Irish-TwittIrish	0.0061601091134224	0
