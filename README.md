@@ -47,6 +47,7 @@ and is co-funded under the European Regional Development Fund.
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: social
 Lemmas: manual native
 UPOS: manual native
