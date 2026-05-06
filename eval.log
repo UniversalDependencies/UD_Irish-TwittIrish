@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Irish-TwittIrish:
-commit c9cc9a9cc24f3ce3706336e8aafe08144c94ff69
-Merge: 2a8bc78 2ac371e
+commit 7e44651ee626ad210a90c03d89a85f593aaa8ed4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:48:24 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ga_twittirish'
 Language code (from CoNLL-U file name) = 'ga'
@@ -25,85 +25,104 @@ Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-dev.conllu
-[Line 49 Sent NTC_132]: [L3 Warning fixed-without-extpos] Fixed expression 'maidir le' does not have the 'ExtPos' feature
-[Line 67 Sent NTC_133]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
-[Line 97 Sent NTC_134]: [L3 Warning fixed-without-extpos] Fixed expression 'ar son' does not have the 'ExtPos' feature
-[Line 186 Sent NTC_139]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'cúis') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 210 Sent NTC_139]: [L3 Warning fixed-without-extpos] Fixed expression 'Ar nós' does not have the 'ExtPos' feature
-[Line 308 Sent NTC_143]: [L3 Warning fixed-without-extpos] Fixed expression 'chomh maith' does not have the 'ExtPos' feature
-[Line 368 Sent NTC_146]: [L3 Warning fixed-without-extpos] Fixed expression 'De réir' does not have the 'ExtPos' feature
-[Line 556 Sent NTC_153]: [L3 Warning fixed-without-extpos] Fixed expression 'go leor' does not have the 'ExtPos' feature
-[Line 715 Sent NTC_161]: [L3 Warning fixed-without-extpos] Fixed expression 'maidir leis' does not have the 'ExtPos' feature
-[Line 825 Sent NTC_166]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 961 Sent NTC_171]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('ach')
-[Line 2084 Sent NTC_234]: [L3 Syntax leaf-det] 'det' not expected to have children (12:an:det --> 10:a:mark)
-[Line 2593 Sent NTC_264]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
-[Line 3804 Sent NTC_343]: [L3 Syntax leaf-det] 'det' not expected to have children (4:An:det --> 5:mó:amod)
-[Line 7263 Sent LTC_768]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Mar')
-[Line 9577 Sent NTC_518]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
-[Line 12026 Sent NTC_623]: [L3 Syntax too-many-objects] Multiple direct objects [7, 9] ('duine', 'pictiúr') under the predicate 'tarraingt'.
-[Line 12864 Sent NTC_659]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
-[Line 12869 Sent NTC_659]: [L3 Syntax leaf-det] 'det' not expected to have children (25:the:det --> 23:'ve:aux)
-[Line 12946 Sent NTC_663]: [L3 Syntax too-many-objects] Multiple direct objects [19, 20] ('a', 'chéad') under the predicate 'tógadh'.
-...suppressing further errors regarding Syntax
-Syntax errors: 15
-Warnings: 153
-*** FAILED *** with 15 errors
+[Line 49 Sent NTC_132]: [L3 WARNING fixed-without-extpos] Fixed expression 'maidir le' does not have the 'ExtPos' feature
+[Line 67 Sent NTC_133]: [L3 WARNING fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
+[Line 97 Sent NTC_134]: [L3 WARNING fixed-without-extpos] Fixed expression 'ar son' does not have the 'ExtPos' feature
+[Line 186 Sent NTC_139]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'cúis') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 210 Sent NTC_139]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ar nós' does not have the 'ExtPos' feature
+[Line 308 Sent NTC_143]: [L3 WARNING fixed-without-extpos] Fixed expression 'chomh maith' does not have the 'ExtPos' feature
+[Line 368 Sent NTC_146]: [L3 WARNING fixed-without-extpos] Fixed expression 'De réir' does not have the 'ExtPos' feature
+[Line 556 Sent NTC_153]: [L3 WARNING fixed-without-extpos] Fixed expression 'go leor' does not have the 'ExtPos' feature
+[Line 715 Sent NTC_161]: [L3 WARNING fixed-without-extpos] Fixed expression 'maidir leis' does not have the 'ExtPos' feature
+[Line 825 Sent NTC_166]: [L3 WARNING fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
+[Line 961 Sent NTC_171]: [L3 WARNING fixed-without-extpos] Fixed expression 'ach oiread' does not have the 'ExtPos' feature
+[Line 961 Sent NTC_171]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('ach')
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 1758 Sent NTC_215]: [L3 SYNTAX obl-should-be-nmod] The parent (node [18] 'bhean') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2030 Sent NTC_231]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'feachaint') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2084 Sent NTC_234]: [L3 SYNTAX leaf-det] 'det' not expected to have children (12:an:det --> 10:a:mark)
+[Line 2367 Sent NTC_252]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'bliain') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2416 Sent NTC_254]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'Cluiche') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2593 Sent NTC_264]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 2710 Sent NTC_271]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'bronnadh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3220 Sent NTC_301]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'Aonad') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 10751 Sent NTC_566]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 10750 Sent NTC_566]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 17092 Sent NTC_851]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 17091 Sent NTC_851]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 18964 Sent NTC_929]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 18961 Sent NTC_929]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 123
+SYNTAX errors: 45
+*** FAILED *** with 45 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-test.conllu
-[Line 37 Sent NTC_2]: [L3 Warning fixed-without-extpos] Fixed expression 'Ar son' does not have the 'ExtPos' feature
-[Line 129 Sent NTC_10]: [L3 Warning fixed-without-extpos] Fixed expression 'i ndiaidh' does not have the 'ExtPos' feature
-[Line 140 Sent NTC_10]: [L3 Warning fixed-without-extpos] Fixed expression 'go leor leor' does not have the 'ExtPos' feature
-[Line 201 Sent NTC_14]: [L3 Warning obl-should-be-nmod] The parent (node [2] '@user505') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 357 Sent NTC_25]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
-[Line 404 Sent NTC_28]: [L3 Warning fixed-without-extpos] Fixed expression 'maidir le' does not have the 'ExtPos' feature
-[Line 544 Sent NTC_33]: [L3 Warning fixed-without-extpos] Fixed expression 'go dtí' does not have the 'ExtPos' feature
-[Line 746 Sent NTC_49]: [L3 Warning fixed-without-extpos] Fixed expression 'Go leor' does not have the 'ExtPos' feature
-[Line 969 Sent NTC_59]: [L3 Syntax too-many-objects] Multiple direct objects [30, 33] ('a', 'duine') under the predicate 'chuala'.
-[Line 980 Sent NTC_59]: [L3 Warning obl-should-be-nmod] The parent (node [40] 'scaradh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1124 Sent NTC_65]: [L3 Warning fixed-without-extpos] Fixed expression 'laistiar den' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 1187 Sent NTC_70]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
-[Line 1318 Sent NTC_78]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
-[Line 2868 Sent NTC_207]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('ar')
-[Line 3399 Sent NTC_333]: [L3 Syntax leaf-det] 'det' not expected to have children (6:an:det --> 8:BBC:nmod)
-[Line 3588 Sent LTC_13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('thar')
-[Line 4817 Sent LTC_70]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
-[Line 5055 Sent LTC_85]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Mar')
-[Line 5136 Sent LTC_90]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
-[Line 6365 Sent LTC_136]: [L3 Syntax too-many-objects] Multiple direct objects [5, 8] ('@user215', '@user1510') under the predicate 'Oscail'.
-...suppressing further errors regarding Syntax
-Syntax errors: 25
-Warnings: 177
-*** FAILED *** with 25 errors
+[Line 37 Sent NTC_2]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ar son' does not have the 'ExtPos' feature
+[Line 129 Sent NTC_10]: [L3 WARNING fixed-without-extpos] Fixed expression 'i ndiaidh' does not have the 'ExtPos' feature
+[Line 140 Sent NTC_10]: [L3 WARNING fixed-without-extpos] Fixed expression 'go leor leor' does not have the 'ExtPos' feature
+[Line 201 Sent NTC_14]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] '@user505') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 357 Sent NTC_25]: [L3 WARNING fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
+[Line 404 Sent NTC_28]: [L3 WARNING fixed-without-extpos] Fixed expression 'maidir le' does not have the 'ExtPos' feature
+[Line 544 Sent NTC_33]: [L3 WARNING fixed-without-extpos] Fixed expression 'go dtí' does not have the 'ExtPos' feature
+[Line 746 Sent NTC_49]: [L3 WARNING fixed-without-extpos] Fixed expression 'Go leor' does not have the 'ExtPos' feature
+[Line 969 Sent NTC_59]: [L3 SYNTAX too-many-objects] Multiple direct objects [30, 33] ('a', 'duine') under the predicate 'chuala'.
+[Line 980 Sent NTC_59]: [L3 SYNTAX obl-should-be-nmod] The parent (node [40] 'scaradh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1124 Sent NTC_65]: [L3 WARNING fixed-without-extpos] Fixed expression 'laistiar den' does not have the 'ExtPos' feature
+[Line 1187 Sent NTC_70]: [L3 WARNING fixed-without-extpos] Fixed expression 'go deo' does not have the 'ExtPos' feature
+[Line 1187 Sent NTC_70]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 1318 Sent NTC_78]: [L3 WARNING fixed-without-extpos] Fixed expression 'go deo' does not have the 'ExtPos' feature
+[Line 1318 Sent NTC_78]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 1477 Sent NTC_87]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1476 Sent NTC_87]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2022 Sent NTC_110]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'éalú') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2868 Sent NTC_207]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('ar')
+[Line 3399 Sent NTC_333]: [L3 SYNTAX leaf-det] 'det' not expected to have children (6:an:det --> 8:BBC:nmod)
+[Line 3588 Sent LTC_13]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('thar')
+[Line 4817 Sent LTC_70]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 149
+SYNTAX errors: 53
+*** FAILED *** with 53 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-TwittIrish/ga_twittirish-ud-train.conllu
-[Line 21 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 20 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 22 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 20 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 20 Sent NTC_939]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 38 Sent NTC_940]: [L3 Warning fixed-without-extpos] Fixed expression 'i mbun' does not have the 'ExtPos' feature
-[Line 79 Sent NTC_942]: [L3 Warning fixed-without-extpos] Fixed expression 'i gceann' does not have the 'ExtPos' feature
-[Line 187 Sent NTC_946]: [L3 Warning obl-should-be-nmod] The parent (node [17] 'foghlaim') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 353 Sent NTC_955]: [L3 Warning fixed-without-extpos] Fixed expression 'craoladh dtí' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 825 Sent NTC_974]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
-[Line 1007 Sent NTC_980]: [L3 Syntax too-many-objects] Multiple direct objects [45, 48] ('leithscéil', 'é') under the predicate 'dhéanamh'.
-[Line 2860 Sent NTC_1071]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
-[Line 4863 Sent NTC_1158]: [L3 Syntax too-many-objects] Multiple direct objects [19, 21] ('Gaeilge', 'Go') under the predicate 'Give'.
-[Line 5612 Sent NTC_1190]: [L3 Syntax leaf-det] 'det' not expected to have children (8:do:det --> 12:gcampas:nmod)
-[Line 11187 Sent LTC_1028]: [L3 Syntax leaf-det] 'det' not expected to have children (3:ár:det --> 4:leantóirí:nmod)
-[Line 13901 Sent LTC_1156]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('roimh')
-[Line 14215 Sent LTC_1172]: [L3 Syntax leaf-det] 'det' not expected to have children (10:an:det --> 12:Nollaig:nmod)
-[Line 16461 Sent LTC_1283]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('tar')
-[Line 16476 Sent LTC_1284]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('ach')
-...suppressing further errors regarding Syntax
-Syntax errors: 14
-Warnings: 179
-*** FAILED *** with 14 errors
+[Line 21 Sent NTC_939]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20 Sent NTC_939]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 22 Sent NTC_939]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20 Sent NTC_939]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 23 Sent NTC_939]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 20 Sent NTC_939]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 38 Sent NTC_940]: [L3 WARNING fixed-without-extpos] Fixed expression 'i mbun' does not have the 'ExtPos' feature
+[Line 79 Sent NTC_942]: [L3 WARNING fixed-without-extpos] Fixed expression 'i gceann' does not have the 'ExtPos' feature
+[Line 187 Sent NTC_946]: [L3 SYNTAX obl-should-be-nmod] The parent (node [17] 'foghlaim') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 353 Sent NTC_955]: [L3 WARNING fixed-without-extpos] Fixed expression 'craoladh dtí' does not have the 'ExtPos' feature
+[Line 353 Sent NTC_955]: [L3 WARNING fixed-gap] Gaps in fixed expression [7, 10] 'craoladh * * dtí'
+[Line 357 Sent NTC_955]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'raidiofailte') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 538 Sent NTC_962]: [L3 WARNING fixed-without-extpos] Fixed expression 'ar ais' does not have the 'ExtPos' feature
+[Line 577 Sent NTC_963]: [L3 SYNTAX obl-should-be-nmod] The parent (node [22] 'sibh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 825 Sent NTC_974]: [L3 WARNING fixed-without-extpos] Fixed expression 'go deo' does not have the 'ExtPos' feature
+[Line 825 Sent NTC_974]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 965 Sent NTC_980]: [L3 WARNING fixed-without-extpos] Fixed expression 'fá choinne' does not have the 'ExtPos' feature
+[Line 1007 Sent NTC_980]: [L3 SYNTAX too-many-objects] Multiple direct objects [45, 48] ('leithscéil', 'é') under the predicate 'dhéanamh'.
+[Line 1301 Sent NTC_994]: [L3 WARNING fixed-without-extpos] Fixed expression 'os cionn' does not have the 'ExtPos' feature
+[Line 1357 Sent NTC_996]: [L3 WARNING fixed-without-extpos] Fixed expression 'de reir' does not have the 'ExtPos' feature
+[Line 1377 Sent NTC_997]: [L3 WARNING fixed-without-extpos] Fixed expression 'i measc' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 2154 Sent NTC_1036]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'Maidin') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2158 Sent NTC_1036]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'Maidin') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2161 Sent NTC_1036]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2160 Sent NTC_1036]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2713 Sent NTC_1064]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'haimsire') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2780 Sent NTC_1067]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'Ulster') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2860 Sent NTC_1071]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 8549 Sent LTC_898]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 8548 Sent LTC_898]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 137
+SYNTAX errors: 55
+*** FAILED *** with 55 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.01) = 0.00111111111111111
